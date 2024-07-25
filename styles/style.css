@@ -1,0 +1,168 @@
+/* Estilo da barra de navegação */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    padding-left:20px;
+    text-align: center; /* Centraliza os links horizontalmente */
+}
+
+/* Estilo dos links */
+nav a {
+    display: inline-block; /* Permite que os links ocupem a largura necessária */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px; /* Aumenta o tamanho da fonte */
+}
+
+/* Efeito de hover nos links */
+nav a:hover {
+    background-color: #555;
+}
+
+/* Estilo geral para cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+/* Estilo dos parágrafos */
+p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Estilo das listas */
+ul, ol {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilo das tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Estilo das imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Estilo dos links */
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do rodapé */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px; /* Tamanho da fonte do rodapé */
+}
+
+/* Estilo da seção de exemplo */
+#exemplo {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Estilo do título */
+.titulo {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos parágrafos */
+.paragrafo {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Estilo do parágrafo destacado */
+.paragrafo.destaque {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Estilo do novo parágrafo */
+#exemplo p.novo-paragrafo {
+    font-style: italic;
+    color: #888;
+}
+
+/* Estilo para centralizar o texto da página inicial */
+.inicio {
+    text-align: center; /* Centraliza o texto */
+    margin: 100px auto; /* Adiciona espaçamento acima e abaixo */
+    padding: 20px; /* Adiciona espaçamento interno */
+    colo
+    position: relative;
+    z-index: 1; /* Garante que o texto apareça acima da imagem de fundo */
+}
+
+/* Estilo específico para a página inicial */
+.page-inicio {
+    background: url('img.webp') no-repeat center center fixed;
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    color: #fff; /* Define a cor do texto como branca para contrastar com a imagem */
+}
+/* Estilo para o texto adicional na página inicial */
+.page-inicio .texto-adicional {
+    color: white; /* Cor do texto branca */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 40px; /* Tamanho da fonte */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Cor de fundo mais clara para o contêiner de texto */
+.page-inicio .inicio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Cor de fundo mais escura com transparência */
+    z-index: -1; /* Coloca o fundo atrás do texto */
+}
+img {
+    max-width: 24%; /* Defina o valor que desejar (porcentagem ou pixels) */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem fique centralizada horizontalmente */
+    margin: 0 auto; /* Centraliza a imagem na página */
+}
+
